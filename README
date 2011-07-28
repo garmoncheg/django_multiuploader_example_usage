@@ -1,7 +1,10 @@
 Django Multiuploader Plugin
 ----------------------------------------------------------------------
 
-Readme for plugin of Django Multiuploader using jQuery Plugin by Sebastian Tschan(https://blueimp.net/).
+Readme for Example usage of plugin - Django Multiuploader using jQuery Plugin by Sebastian Tschan(https://blueimp.net/).
+
+It's posted to upstream at github to make life of my plugin's users easier)
+Feel free to comment or send me a email about your usage...
 
 This is a plugin, made using multiupload form from Sebastian Tschan.
 It uses jQuey UI and jQuery instead of Flash uploader.
@@ -21,6 +24,8 @@ Currently Tested full functionality under Chrome, Firefox and Safari.
 Opera somehow fails to add multiple Photos.
 
 Will try to fix them as soon as possible.
+
+Functionality with Django 1.3 was not fully tested but I'll try to do thin in near fututre.
 
 Example usage:
 ----------------------------------------------------------------------
