@@ -1,0 +1,17 @@
+{% load thumbnail %}
+<h1><a href="{% url multi %}">Multiuploader</a></h1>
+<br />
+<h2>Images:</h2>
+<hr>
+<div class="photos">
+{% for item in items %}
+{% thumbnail item "80x80" crop="10px 10px" as im %}
+    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+{% endthumbnail %}
+{% endfor %}
+</div>
+<hr>
+
+
+{% load multiuploader %}
+{% multiupform %}
