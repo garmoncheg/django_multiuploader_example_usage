@@ -13,11 +13,10 @@ urlpatterns = patterns('',
 )
 
 from django.conf import settings
-from django_multiuploader.settings import MEDIA_ROOT
 if settings.DEBUG:
     urlpatterns += patterns('',
         (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': 
-            MEDIA_ROOT,
+            settings.MEDIA_ROOT,
             'show_indexes': True}),
     )

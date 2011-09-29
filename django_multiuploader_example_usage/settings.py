@@ -80,7 +80,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'django_multiuploader_exaple_usage.urls'
+ROOT_URLCONF = 'django_multiuploader_example_usage.urls'
 
 TEMPLATE_DIRS = (
                  'templates/',
